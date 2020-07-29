@@ -25,7 +25,7 @@ github_username:  fusionking
 permalink: /:categories/:slug/
 
 # Minimal Mistakes Configurations
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "mint"
 breadrumbs: true
 search: true
