@@ -26,7 +26,7 @@ permalink: /:categories/:slug/
 
 # Minimal Mistakes Configurations
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "mint"
+minimal_mistakes_skin: "dark"
 breadrumbs: true
 search: true
 
