@@ -4,6 +4,7 @@ date:   2021-11-09 14:58:48 +0300
 categories: 
   - security 
   - beginner
+  - guide
 author: "Berkay"
 excerpt: "Learn the essentials of cybersecurity"
 header:
