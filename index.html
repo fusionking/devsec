@@ -4,7 +4,7 @@
 
 layout: splash
 header:
-  overlay_color: "#03A062"
+  overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/programming.jpg
 excerpt: "Tales about our software development & web security journey"
@@ -17,8 +17,8 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/security-alt.jpg
-    title: "Web Security"
-    excerpt: "Brought to you by Alice and Bob: Curated list of topics about web security."
+    title: "Cyber Security"
+    excerpt: "Brought to you by Alice and Bob: Curated list of topics about cyber security."
     url: "/posts/#security"
     btn_label: "Read More"
     btn_class: "btn--inverse"
@@ -32,8 +32,6 @@ feature_row:
 ---
 
 {% include feature_row %}
-
-{{ content }}
 
 <h3 class="archive__subtitle">Recent Posts</h3>
 {% for post in site.posts limit:3 %}

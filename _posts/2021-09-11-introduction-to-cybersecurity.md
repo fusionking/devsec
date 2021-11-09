@@ -1,7 +1,9 @@
 ---
 title:  "Introduction to Cybersecurity"
 date:   2021-11-09 14:58:48 +0300
-categories: security, beginner
+categories: 
+  - security 
+  - beginner
 author: "Berkay"
 excerpt: "Learn the essentials of cybersecurity"
 header:
