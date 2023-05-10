@@ -368,10 +368,10 @@ jobs:
         id: ai_security_check
         run: pipenv run python manage.py review
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_REPOSITORY: ${{ github.repository }}
-          GH_EVENT_PULL_REQUEST_NUMBER: ${{ github.event.number }}
-          OPENAI_TOKEN: ${{ secrets.OPENAI_API_KEY }}
+          GH_TOKEN: ${{ "{{" }} secrets.GH_TOKEN {{"}}}}
+          GH_REPOSITORY: ${{ "{{" }} github.repository {{"}}}}
+          GH_EVENT_PULL_REQUEST_NUMBER: ${{ "{{" }} github.event.number {{"}}}}
+          OPENAI_TOKEN: ${{ "{{" }} secrets.OPEN_AI_KEY {{"}}}}
 {% endhighlight %}
 
 Here, we're passing the tokens, the pull request number and the repository name to the management command as environment variables.
@@ -405,10 +405,10 @@ jobs:
         id: ai_security_check
         run: pipenv run python manage.py review
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GH_REPOSITORY: ${{ github.repository }}
-          GH_EVENT_PULL_REQUEST_NUMBER: ${{ github.event.number }}
-          OPENAI_TOKEN: ${{ secrets.CANSIN_OPENAI_PR_REVIEWER_API_KEY }}
+          GH_TOKEN: ${{ "{{" }} secrets.GH_TOKEN {{"}}}}
+          GH_REPOSITORY: ${{ "{{" }} github.repository {{"}}}}
+          GH_EVENT_PULL_REQUEST_NUMBER: ${{ "{{" }} github.event.number {{"}}}}
+          OPENAI_TOKEN: ${{ "{{" }} secrets.OPEN_AI_KEY {{"}}}}
 {% endhighlight %}
 
 ## Findings on Prompts
