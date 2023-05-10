@@ -1,0 +1,80 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$link-color: #393e46;
+
+/* system typefaces */
+$serif: Lora, Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+/* serif typefaces */
+$georgia: Georgia, serif !default;
+$times: Times, serif !default;
+$bodoni: "Bodoni MT", serif !default;
+$calisto: "Calisto MT", serif !default;
+$garamond: Garamond, serif !default;
+
+$global-font-family           : $serif !default;
+$header-font-family           : $sans-serif !default;
+$caption-font-family          : $serif !default;
+
+/* type scale */
+$type-size-1: 2.441em !default;
+$type-size-2: 1.953em !default;
+$type-size-3: 1.563em !default;
+$type-size-4: 1.25em !default;
+$type-size-5: 1.1em !default;
+$type-size-6: 0.8em !default;
+$type-size-7: 0.8em !default;
+$type-size-8: 0.625em !default;
+$type-size-9: 0.925em !default;
+
+/* headline scale */
+$h-size-1: 1.563em !default;
+$h-size-2: 1.25em !default;
+$h-size-3: 1.125em !default;
+$h-size-4: 1.0625em !default;
+$h-size-5: 1.03125em !default;
+$h-size-6: 1em !default;
+
+// syntax highlighting from the "contrast" skin
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#colors
+//$base00: #fafafa !default;
+//$base01: #073642 !default;
+//$base02: #586e75 !default;
+//$base03: #657b83 !default;
+//$base04: #839496 !default;
+//$base05: #586e75 !default;
+//$base06: #eee8d5 !default;
+//$base07: #fdf6e3 !default;
+//$base08: #dc322f !default;
+//$base09: #cb4b16 !default;
+//$base0a: #b58900 !default;
+//$base0b: #859900 !default;
+//$base0c: #2aa198 !default;
+//$base0d: #268bd2 !default;
+//$base0e: #6c71c4 !default;
+//$base0f: #d33682 !default;
+
+.page__content p {
+    font-size: $type-size-9 !important;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+.sidebar li {
+  padding-top: 1.1em;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+

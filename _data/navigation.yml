@@ -3,3 +3,13 @@ main:
     url: /about/
   - title: "Posts"
     url: /posts/
+
+docs:
+  - title: Selected Posts
+    children:
+      - title: "Generators vs Iterators"
+        url: /python/generators-vs-iterators/
+      - title: "Streamline Your Django / Python Code Reviews with a Custom Git Workflow and Chat GPT"
+        url: /python/ai/chatgpt/git/pr-review-with-chatgpt/
+      - title: "Multi Factor Authentication For The Win (or is it?)"
+        url: /security/mfa-for-the-win/

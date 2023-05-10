@@ -27,7 +27,7 @@ permalink: /:categories/:slug/
 
 # Minimal Mistakes Configurations
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 breadrumbs: true
 search: true
 
@@ -41,6 +41,12 @@ defaults:
       type: posts
     values:
       read_time: true
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 
 include:
   - _pages

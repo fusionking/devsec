@@ -6,8 +6,10 @@ author: "Can"
 excerpt: "Learn the hidden gems of python generators and lists"
 header:
     overlay_image: /assets/images/programming.jpg
-    overlay_filter: 0.5
+    overlay_filter: linear-gradient(rgba(2, 0, 36, 0.5), rgba(0, 146, 202, 0.5))
 slug: generators-vs-iterators
+sidebar:
+    nav: docs
 layout: custom
 ---
 
