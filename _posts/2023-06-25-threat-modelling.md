@@ -1,8 +1,7 @@
-
 ---
 title:  "What is threat modelling in a nutshell?"
 date:   2023-06-25 17:34:48 +0300
-categories: security, threat modelling
+categories: security
 author: "Berkay"
 excerpt: "Learn the fundamentals about threat modelling"
 header:
