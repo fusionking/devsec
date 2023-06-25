@@ -12,7 +12,7 @@ sidebar:
     nav: docs
 layout: custom
 ---
-### What it threat modeling?
+### What is threat modeling?
 
 Threat modeling is a critical process that enables cybersecurity professionals to identify and evaluate potential risks and vulnerabilities in networks, applications, and systems. In this paper, we provide a comprehensive review of the importance of threat modeling in cybersecurity as well as the methodologies for applying it and real-world applications of the process.
 
